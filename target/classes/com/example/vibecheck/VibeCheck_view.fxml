@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vibecheck.VibeCheckController">
+    <Button fx:id="vibeCheckButton" onAction="#generateVibe" prefHeight="78.0" prefWidth="151.0" text="Вайб чек" textAlignment="CENTER" textFill="#00ff1d">
+      <font>
+         <Font size="24.0" />
+      </font>
+      <effect>
+         <InnerShadow height="255.0" radius="63.25" width="0.0">
+            <color>
+               <Color green="0.7200000286102295" blue="0.01371428556740284" />
+            </color>
+         </InnerShadow>
+      </effect></Button>
+
+    <Label fx:id="vibeLabel" alignment="BOTTOM_CENTER" prefHeight="89.0" prefWidth="294.0" text="" textFill="#ff0009">
+      <font>
+         <Font name="Berlin Sans FB" size="41.0" />
+      </font></Label>
+   <effect>
+      <InnerShadow choke="0.61" height="50.31" radius="27.585" width="62.03">
+         <color>
+            <Color red="0.8952381014823914" green="1.0" />
+         </color>
+      </InnerShadow>
+   </effect>
+
+</VBox>
